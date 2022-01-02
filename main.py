@@ -338,5 +338,3 @@ async def clear(ctx, amount=11):
       await ctx.send(f"{ctx.author.mention} Usunięto wiadomości!")
       await asyncio.sleep(10)
       await ctx.channel.purge(limit=1)
-
-client.run("OTI2OTMzNTU3MDYwOTg0ODgy.YdC4JQ.HbK0Ta3aNm5z64JX5gwULo76Srg")
